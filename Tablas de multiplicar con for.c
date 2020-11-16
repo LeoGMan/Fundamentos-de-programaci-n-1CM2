@@ -7,7 +7,7 @@ int main() {
 
     int a,x,z;
     
-    printf("¿Qué tabla de multiplicar quieres saber?\n");
+    printf("¿Hasta que tabla de multiplicar quieres ver?\n");
     scanf("%d,",&z);
     
     for (a=1;a<=z;a++)
