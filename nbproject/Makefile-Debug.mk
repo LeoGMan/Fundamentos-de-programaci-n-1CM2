@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Serie\ de\ fibonacci.o
+	${OBJECTDIR}/Serie\ de\ fibonacci.o \
+	${OBJECTDIR}/Tablas\ de\ multiplicar\ con\ for.o
 
 
 # C Compiler Flags
@@ -56,17 +57,23 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/n_mero_mayor.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_1cm2.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/n_mero_mayor.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_1cm2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/n_mero_mayor ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 .NO_PARALLEL:${OBJECTDIR}/Serie\ de\ fibonacci.o
 ${OBJECTDIR}/Serie\ de\ fibonacci.o: Serie\ de\ fibonacci.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Serie\ de\ fibonacci.o Serie\ de\ fibonacci.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tablas\ de\ multiplicar\ con\ for.o
+${OBJECTDIR}/Tablas\ de\ multiplicar\ con\ for.o: Tablas\ de\ multiplicar\ con\ for.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tablas\ de\ multiplicar\ con\ for.o Tablas\ de\ multiplicar\ con\ for.c
 
 # Subprojects
 .build-subprojects:

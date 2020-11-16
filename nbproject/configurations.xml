@@ -15,6 +15,7 @@
       <itemPath>Mayor de 3 números.c</itemPath>
       <itemPath>Mayor de 4 números.c</itemPath>
       <itemPath>Serie de fibonacci.c</itemPath>
+      <itemPath>Tablas de multiplicar con for.c</itemPath>
       <itemPath>Tablas de multiplicar.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -41,6 +42,8 @@
       </compileType>
       <item path="Serie de fibonacci.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Tablas de multiplicar con for.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -62,13 +65,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Mayor de 3 números.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Mayor de 4 números.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Serie de fibonacci.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tablas de multiplicar.c" ex="false" tool="0" flavor2="0">
+      <item path="Tablas de multiplicar con for.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

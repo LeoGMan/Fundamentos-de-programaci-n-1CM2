@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Número mayor
+PROJECTNAME=Fundamentos 1CM2
 
 # Active Configuration
 DEFAULTCONF=Debug
