@@ -1,3 +1,8 @@
+/* 
+ * File:   Serie de fibonacci.c
+ * Author: Leonardo Gabriel González Manzanilla
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 

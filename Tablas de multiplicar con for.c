@@ -1,3 +1,8 @@
+/* 
+ * File:   Tablas de multiplicar con for.c
+ * Author: Leonardo Gabriel González Manzanilla
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,7 +17,7 @@ int main() {
     
     for (a=1;a<=z;a++)
     {
-        printf("-----------------------------------------------------------------------\n\t\tTabla del %d\n",a);
+        printf("----------------------------------------------------------------\n\t\tTabla del %d\n",a);
         for (x=1;x<11;x++)
            
         printf ("%d X %d = %d\n",a,x,a*x);

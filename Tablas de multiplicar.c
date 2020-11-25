@@ -1,3 +1,7 @@
+/* 
+ * File:   Tablas de multiplicar.c
+ * Author: Leonardo Gabriel González Manzanilla
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -12,6 +12,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Arreglo Promedio.c</itemPath>
+      <itemPath>Arreglo scan.c</itemPath>
+      <itemPath>Arreglos 1 a 100.c</itemPath>
       <itemPath>Mayor de 3 números.c</itemPath>
       <itemPath>Mayor de 4 números.c</itemPath>
       <itemPath>Serie de fibonacci.c</itemPath>
@@ -40,9 +43,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Serie de fibonacci.c" ex="false" tool="0" flavor2="0">
+      <item path="Arreglo Promedio.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Tablas de multiplicar con for.c" ex="false" tool="0" flavor2="0">
+      <item path="Arreglo scan.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -65,7 +68,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Tablas de multiplicar con for.c" ex="false" tool="0" flavor2="0">
+      <item path="Arreglo Promedio.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
