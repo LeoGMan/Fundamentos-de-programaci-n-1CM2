@@ -18,7 +18,7 @@ int main() {
     int y;
     
     printf("Dame el número del arreglo: ");
-    scanf("%d",x);
+    scanf("%d",&x);
     
     for (y=0;y<x;y++){
       printf("Introduzca los numeros del arreglo: \n");

@@ -16,7 +16,7 @@ int main() {
     int n;
     
     printf("Ingrese la cantidad de numeros: ");
-    scanf("%f",&n);
+    scanf("%d",&n);
     
     float arreglo[n];
     for(A; A<n;A++){
