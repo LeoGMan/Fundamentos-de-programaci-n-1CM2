@@ -77,7 +77,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="arreglo burbuja mejorada.c" ex="false" tool="0" flavor2="0">
+      <item path="Tablas de multiplicar.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
