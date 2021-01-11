@@ -1,11 +1,4 @@
 
-/* 
- * File:   Arreglo Num min y max.c
- * Author: Leonardo Gabriel González Manzanilla
- *
- * Created on 25 de noviembre de 2020, 06:07 PM
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 

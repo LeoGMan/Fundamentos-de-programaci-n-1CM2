@@ -12,17 +12,37 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Apun.c</itemPath>
+      <itemPath>Apuntador.c</itemPath>
       <itemPath>Arreglo Num min y max.c</itemPath>
       <itemPath>Arreglo Promedio.c</itemPath>
       <itemPath>Arreglo metodo de burbuja.c</itemPath>
       <itemPath>Arreglo scan.c</itemPath>
       <itemPath>Arreglos 1 a 100.c</itemPath>
+      <itemPath>For.c</itemPath>
+      <itemPath>Funcion.c</itemPath>
+      <itemPath>If.c</itemPath>
       <itemPath>Mayor de 3 números.c</itemPath>
       <itemPath>Mayor de 4 números.c</itemPath>
+      <itemPath>Menú.c</itemPath>
       <itemPath>Serie de fibonacci.c</itemPath>
       <itemPath>Tablas de multiplicar con for.c</itemPath>
       <itemPath>Tablas de multiplicar.c</itemPath>
+      <itemPath>apuntador 2.c</itemPath>
+      <itemPath>array char.c</itemPath>
+      <itemPath>array tabla.c</itemPath>
+      <itemPath>array.c</itemPath>
       <itemPath>arreglo burbuja mejorada.c</itemPath>
+      <itemPath>compras.c</itemPath>
+      <itemPath>do while.c</itemPath>
+      <itemPath>funcion 2.c</itemPath>
+      <itemPath>i f.c</itemPath>
+      <itemPath>if 2.c</itemPath>
+      <itemPath>sueldo.c</itemPath>
+      <itemPath>suma con apuntador.c</itemPath>
+      <itemPath>switch.c</itemPath>
+      <itemPath>tienda.c</itemPath>
+      <itemPath>while.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -46,15 +66,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Arreglo Num min y max.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Arreglo Promedio.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Arreglo metodo de burbuja.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Arreglo scan.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="arreglo burbuja mejorada.c" ex="false" tool="0" flavor2="0">
+      <item path="tienda.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -77,7 +89,43 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Tablas de multiplicar.c" ex="false" tool="0" flavor2="0">
+      <item path="Apun.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="For.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Funcion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="If.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Menú.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="apuntador 2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="array char.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="array tabla.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="array.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="compras.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="do while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcion 2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="i f.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="if 2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sueldo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="suma con apuntador.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="switch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tienda.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="while.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

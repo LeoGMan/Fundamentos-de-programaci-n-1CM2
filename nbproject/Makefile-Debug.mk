@@ -35,11 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Arreglo\ Num\ min\ y\ max.o \
-	${OBJECTDIR}/Arreglo\ Promedio.o \
-	${OBJECTDIR}/Arreglo\ metodo\ de\ burbuja.o \
-	${OBJECTDIR}/Arreglo\ scan.o \
-	${OBJECTDIR}/arreglo\ burbuja\ mejorada.o
+	${OBJECTDIR}/tienda.o
 
 
 # C Compiler Flags
@@ -66,35 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos-de-programaci-n-1cm2.exe:
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos-de-programaci-n-1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Arreglo\ Num\ min\ y\ max.o
-${OBJECTDIR}/Arreglo\ Num\ min\ y\ max.o: Arreglo\ Num\ min\ y\ max.c
+${OBJECTDIR}/tienda.o: tienda.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglo\ Num\ min\ y\ max.o Arreglo\ Num\ min\ y\ max.c
-
-.NO_PARALLEL:${OBJECTDIR}/Arreglo\ Promedio.o
-${OBJECTDIR}/Arreglo\ Promedio.o: Arreglo\ Promedio.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglo\ Promedio.o Arreglo\ Promedio.c
-
-.NO_PARALLEL:${OBJECTDIR}/Arreglo\ metodo\ de\ burbuja.o
-${OBJECTDIR}/Arreglo\ metodo\ de\ burbuja.o: Arreglo\ metodo\ de\ burbuja.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglo\ metodo\ de\ burbuja.o Arreglo\ metodo\ de\ burbuja.c
-
-.NO_PARALLEL:${OBJECTDIR}/Arreglo\ scan.o
-${OBJECTDIR}/Arreglo\ scan.o: Arreglo\ scan.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglo\ scan.o Arreglo\ scan.c
-
-.NO_PARALLEL:${OBJECTDIR}/arreglo\ burbuja\ mejorada.o
-${OBJECTDIR}/arreglo\ burbuja\ mejorada.o: arreglo\ burbuja\ mejorada.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglo\ burbuja\ mejorada.o arreglo\ burbuja\ mejorada.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tienda.o tienda.c
 
 # Subprojects
 .build-subprojects:

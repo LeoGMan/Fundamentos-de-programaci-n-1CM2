@@ -1,12 +1,4 @@
 
-
-/* 
- * File:   Arreglo scan.c
- * Author: Leonardo Gabriel González Manzanilla
- *
- * Created on 25 de noviembre de 2020, 12:23 PM
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
