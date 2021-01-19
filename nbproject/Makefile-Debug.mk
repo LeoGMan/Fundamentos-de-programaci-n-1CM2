@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/tienda.o
+	${OBJECTDIR}/cabecera.o \
+	${OBJECTDIR}/funcion.o
 
 
 # C Compiler Flags
@@ -62,10 +63,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos-de-programaci-n-1cm2.exe:
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos-de-programaci-n-1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/tienda.o: tienda.c
+${OBJECTDIR}/cabecera.o: cabecera.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tienda.o tienda.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cabecera.o cabecera.c
+
+${OBJECTDIR}/funcion.o: funcion.h
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funcion.o funcion.h
 
 # Subprojects
 .build-subprojects:
