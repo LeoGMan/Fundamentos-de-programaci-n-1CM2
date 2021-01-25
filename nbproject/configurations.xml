@@ -28,11 +28,13 @@
       <itemPath>Tablas de multiplicar con for.c</itemPath>
       <itemPath>Tablas de multiplicar.c</itemPath>
       <itemPath>apuntador 2.c</itemPath>
+      <itemPath>archivos.c</itemPath>
       <itemPath>array char.c</itemPath>
       <itemPath>array tabla.c</itemPath>
       <itemPath>array.c</itemPath>
       <itemPath>arreglo burbuja mejorada.c</itemPath>
       <itemPath>cabecera.c</itemPath>
+      <itemPath>cadena.c</itemPath>
       <itemPath>compras.c</itemPath>
       <itemPath>do while.c</itemPath>
       <itemPath>funcion 2.c</itemPath>
@@ -68,9 +70,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="cabecera.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="funcion.h" ex="false" tool="0" flavor2="0">
+      <item path="archivos.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -93,7 +93,11 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="archivos.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="cabecera.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cadena.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="funcion.h" ex="false" tool="0" flavor2="0">
       </item>

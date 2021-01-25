@@ -35,7 +35,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/archivos.o \
 	${OBJECTDIR}/cabecera.o \
+	${OBJECTDIR}/cadena.o \
 	${OBJECTDIR}/funcion.o \
 	${OBJECTDIR}/funciones.o
 
@@ -64,10 +66,20 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos-de-programaci-n-1cm2.exe:
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos-de-programaci-n-1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/archivos.o: archivos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/archivos.o archivos.c
+
 ${OBJECTDIR}/cabecera.o: cabecera.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cabecera.o cabecera.c
+
+${OBJECTDIR}/cadena.o: cadena.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cadena.o cadena.c
 
 ${OBJECTDIR}/funcion.o: funcion.h
 	${MKDIR} -p ${OBJECTDIR}
